@@ -1,0 +1,43 @@
+import { Head } from '@inertiajs/react';
+import { PlaceholderPattern } from '@/components/ui/placeholder-pattern';
+import { dashboard } from '@/routes';
+
+export default function Dashboard() {
+    return (
+        <>
+            <Head title="Dashboard" />
+            <div className="flex h-full flex-1 flex-col gap-4 overflow-x-auto rounded-xl p-4">
+                <div className="grid auto-rows-min gap-4 md:grid-cols-3">
+                    <div className="relative aspect-video overflow-hidden rounded-xl border border-sidebar-border/70 dark:border-sidebar-border">
+                        <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
+                    </div>
+                    <div className="relative aspect-video overflow-hidden rounded-xl border border-sidebar-border/70 dark:border-sidebar-border">
+                        <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
+                    </div>
+                    <div className="relative aspect-video overflow-hidden rounded-xl border border-sidebar-border/70 dark:border-sidebar-border">
+                        <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
+                    </div>
+                </div>
+                
+                {/* Sección principal modificada */}
+                <div className="relative flex min-h-[100vh] flex-1 items-center justify-center overflow-hidden rounded-xl border border-sidebar-border/70 md:min-h-min dark:border-sidebar-border">
+                    <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
+                    
+                    {/* Tu saludo centrado con z-10 para que flote sobre el patrón */}
+                    <h1 className="z-10 text-3xl font-bold tracking-tight text-blue-600 dark:text-blue-400">
+                        Rodrigo ledezma sanchez
+                    </h1>
+                </div>
+            </div>
+        </>
+    );
+}
+
+Dashboard.layout = {
+    breadcrumbs: [
+        {
+            title: 'Dashboard',
+            href: dashboard(),
+        },
+    ],
+};
