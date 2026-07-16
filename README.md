@@ -1,6 +1,6 @@
-![Imagen 1](C:\Users\itman\Desktop\mi-proyecto\imagenes\1.jpg)
-![Imagen 2](C:\Users\itman\Desktop\mi-proyecto\imagenes\2.jpg)
-![Imagen 3](C:\Users\itman\Desktop\mi-proyecto\imagenes\3.jpg)
+![Imagen 1](C:\Users\itman\Desktop\mi-proyecto\imagenes\1.png)
+![Imagen 2](C:\Users\itman\Desktop\mi-proyecto\imagenes\2.png)
+![Imagen 3](C:\Users\itman\Desktop\mi-proyecto\imagenes\3.png)
 
 # 🔧 TallerPro — Sistema de Gestión de Taller de Reparaciones
 
