@@ -1,47 +1,62 @@
-# 🔧 Taller Santa Cruz — Sistema de Gestión Automotriz
+![Imagen 1](C:\Users\itman\Desktop\mi-proyecto\imagenes\1.jpg)
+![Imagen 2](C:\Users\itman\Desktop\mi-proyecto\imagenes\2.jpg)
+![Imagen 3](C:\Users\itman\Desktop\mi-proyecto\imagenes\3.jpg)
 
-Sistema web desarrollado con **Laravel 11** (PHP 8.2) y **React (Inertia.js)** para el control y seguimiento de talleres mecánicos en Santa Cruz de la Sierra: gestión de clientes, vehículos, mecánicos asignados y control detallado de las órdenes de trabajo.
+# 🔧 TallerPro — Sistema de Gestión de Taller de Reparaciones
+
+Sistema web desarrollado con Laravel 12 (PHP 8.2) para la administración integral de un taller de reparaciones: control de usuarios y roles, gestión de clientes, inventario de repuestos y generación de reportes de reparación y diagnóstico.
 
 ## 📋 Módulos del sistema
 
 | Módulo | Pantallas |
 |---|---|
-| 🔐 **Seguridad** | Login, Registro, Recuperación de contraseña |
-| ⚙️ **Administración** | Dashboard |
-| 💼 **Gestión Comercial** | Órdenes de Trabajo Activas, Nueva Orden de Trabajo |
-| 🚘 **Operaciones** | Clientes, Vehículos, Empleados (Próximamente) |
+| 🔐 Seguridad | Login, Recuperación de contraseña |
+| ⚙️ Administración | Usuarios, Roles, Dashboard |
+| 💼 Gestión Comercial | Clientes, Repuestos (almacén / stock) |
+| 📊 Reportes | Reporte de Reparaciones, Reporte de Diagnósticos |
 
 ## 🛠️ Tecnologías
 
-- **Backend:** Laravel 11 · PHP 8.2
-- **Base de datos:** MySQL (Diseño Relacional de 21 Tablas)
-- **Frontend:** React 18 · Inertia.js · Tailwind CSS · TypeScript
-- **Herramientas:** Vite · Node.js · Composer · Visual Studio Code
+- Backend: Laravel 12 · PHP 8.2
+- Base de datos: MySQL / SQLite
+- Frontend: Blade · CSS
+- Herramientas: Composer · Git · Visual Studio Code
 
-## 🎨 Mockups (Alta fidelidad)
+## ✏️ Wireframes (baja fidelidad)
 
-Los mockups muestran el diseño visual final del sistema: paleta de colores oscuros adaptativa (Dark Mode), tipografía limpia e identidad visual moderna centrada en la experiencia de usuario.
+Los wireframes definen la estructura y distribución de cada pantalla, sin color ni estilo visual final.
 
-**Paleta de colores:** Zinc Dark `#09090b` (fondo principal) · Ámbar `#f59e0b` (acento órdenes) · Rosa `#f43f5e` (acento registros).
+**1. Seguridad — Login** [Wireframe Login]
 
-### 1. Gestión de Servicios — Nueva Orden de Trabajo
-Registro de un nuevo servicio en base a una solicitud, asignando vehículos, clientes y mecánicos.
-![Nueva Orden de Trabajo](docs/mockup_nueva_orden.png)
+**2. Seguridad — Recuperación de contraseña** [Wireframe Recuperación de contraseña]
 
-### 2. Gestión de Servicios — Órdenes de Trabajo Activas
-Listado completo de servicios activos, mecánicos asignados y diagnósticos en curso con filtros interactivos.
-![Órdenes de Trabajo Activas](docs/mockup_ordenes_activas.png)
+**3. Administración — Dashboard** [Wireframe Dashboard]
+
+**4. Administración — Usuarios y Roles** [Wireframe Usuarios y Roles]
+
+## 🎨 Mockups (alta fidelidad)
+
+Los mockups muestran el diseño visual final del sistema: paleta de colores, tipografía, componentes e identidad de marca TallerPro.
+
+Paleta: Azul marino #1B2A41 (primario) · Ámbar #F2A104 (acento) · Fondo #F4F6F9
+
+**1. Gestión Comercial — Clientes** [Mockup Clientes]
+
+**2. Gestión Comercial — Repuestos (Almacén / Stock)** [Mockup Repuestos y Stock]
+
+**3. Reportes — Reporte de Reparaciones** ![Reporte de Reparaciones (Órdenes de Trabajo Activas)](C:\Users\itman\Desktop\mi-proyecto\imagenes\4.jpeg)
+
+**4. Reportes — Reporte de Diagnósticos** ![Reporte de Diagnósticos (Nueva Orden)](C:\Users\itman\Desktop\mi-proyecto\imagenes\5.jpg)
 
 ## 🚀 Instalación del proyecto
 
 ```bash
-# Clonar el repositorio (Ajustar URL al repositorio real)
-git clone https://github.com/tu-usuario/mi-proyecto.git
-cd mi-proyecto
+# Clonar el repositorio
+git clone [https://github.com/RonSalvet/Proyecto-Laravel.git](https://github.com/RonSalvet/Proyecto-Laravel.git)
+cd Proyecto-Laravel
 
-# Instalar dependencias de PHP y Node
+# Instalar dependencias
 composer install
-npm install
 
 # Configurar entorno
 copy .env.example .env
@@ -50,12 +65,5 @@ php artisan key:generate
 # Base de datos
 php artisan migrate
 
-# Ejecutar servidores de desarrollo (Se recomiendan dos terminales)
+# Ejecutar servidor de desarrollo
 php artisan serve
-powershell -ExecutionPolicy Bypass -Command "npm run dev"
-```
-
-*Abrir en el navegador: http://localhost:8000*
-
----
-👤 **Autor:** Rodrigo Ledezma Sanchez — Proyecto académico de Programación Web II.
