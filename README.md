@@ -67,5 +67,6 @@ php artisan migrate
 
 # Ejecutar servidor de desarrollo
 php artisan serve
+```
 
 👤 Autor Rodrigo Ledezma sanchez. — Proyecto académico de desarrollo web con Laravel.
