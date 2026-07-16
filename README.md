@@ -1,6 +1,6 @@
-![Imagen 1](C:\Users\itman\Desktop\mi-proyecto\imagenes\1.png)
-![Imagen 2](C:\Users\itman\Desktop\mi-proyecto\imagenes\2.png)
-![Imagen 3](C:\Users\itman\Desktop\mi-proyecto\imagenes\3.png)
+![Imagen 1](./imagenes/1.png)
+![Imagen 2](./imagenes/2.png)
+![Imagen 3](./imagenes/3.png)
 
 # 🔧 TallerPro — Sistema de Gestión de Taller de Reparaciones
 
@@ -44,9 +44,9 @@ Paleta: Azul marino #1B2A41 (primario) · Ámbar #F2A104 (acento) · Fondo #F4F6
 
 **2. Gestión Comercial — Repuestos (Almacén / Stock)** [Mockup Repuestos y Stock]
 
-**3. Reportes — Reporte de Reparaciones** ![Reporte de Reparaciones (Órdenes de Trabajo Activas)](C:\Users\itman\Desktop\mi-proyecto\imagenes\4.jpeg)
+**3. Reportes — Reporte de Reparaciones** ![Reporte de Reparaciones](./imagenes/4.jpeg)
 
-**4. Reportes — Reporte de Diagnósticos** ![Reporte de Diagnósticos (Nueva Orden)](C:\Users\itman\Desktop\mi-proyecto\imagenes\5.jpg)
+**4. Reportes — Reporte de Diagnósticos** ![Reporte de Diagnósticos](./imagenes/5.jpg)
 
 ## 🚀 Instalación del proyecto
 
@@ -67,3 +67,5 @@ php artisan migrate
 
 # Ejecutar servidor de desarrollo
 php artisan serve
+
+👤 Autor Rodrigo Ledezma sanchez. — Proyecto académico de desarrollo web con Laravel.
